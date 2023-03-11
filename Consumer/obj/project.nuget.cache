@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NhV+i7YWncjGYefmuu3eH+Rz1jGBLo6f+/RfG9UY9dvptrRuzKnE0szJu216SRHq+13gE1t9R3ikC6yo43IQvA==",
+  "success": true,
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\twtz\\udemy\\rabbitMQ\\Consumer\\Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leona\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\leona\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
