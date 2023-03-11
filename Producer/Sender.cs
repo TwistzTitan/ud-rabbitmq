@@ -20,7 +20,7 @@ namespace Producer
 
                 var body = Encoding.UTF8.GetBytes(message);
 
-                channel.BasicPublish("","BasicTest",null,body);
+                channel.BasicPublish("","BasicRabbitTest",null,body);
 
                 Console.WriteLine("Publish succeed.\n Message: {0}", message);
             }

@@ -14,7 +14,7 @@ namespace Consumer {
             using(var connection = factory.CreateConnection())
             using(var channel = connection.CreateModel()){
 
-                channel.QueueDeclare("BasicTest",false,false,false,null);
+                channel.QueueDeclare("BasicRabbitTest",false,false,false,null);
                 var consumer = new EventingBasicConsumer(channel);
                 consumer.Received += (model, ea) => {
 
@@ -23,7 +23,7 @@ namespace Consumer {
                     Console.WriteLine("Received: {0}", message);
                 };
 
-                channel.BasicConsume("BasicTest",true,consumer);
+                channel.BasicConsume("BasicRabbitTest",true,consumer);
 
                 Console.WriteLine("Press [enter] to exit the Consumer...");
                 Console.ReadLine();
